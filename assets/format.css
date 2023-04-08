@@ -1,0 +1,238 @@
+/* CSS Document */
+.menu_nav {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: large;
+	background-color: #F0CE74;
+	border-style: double;
+	color: #4E2A82;
+	-webkit-box-shadow: 5% 25% 1px #676767;
+	box-shadow: 5% 25% 1px #676767;
+	border-width: medium;
+	text-align: center;
+	margin-left: 18%;
+	margin-right: 18%;
+}
+.header {
+	display: table-header-group;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	float: none;
+	clear: both;
+	text-align: center;
+	margin-left: 33%;
+	margin-right: 33%;
+	width: 28%;
+	height: 28%;
+	max-width: 100%;
+	max-height: 100%;
+}
+body {
+	background-image: url(star_background.png);
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	background-color: #ECECEC;
+	background-size: cover;
+}
+ h1 {
+	text-align: center;
+	text-decoration: overline;
+	color: #4E2A82;
+	background-color: #ECECEC;
+	border-width: medium;
+	border-style: double;
+	margin-left: 20%;
+	padding-right: 0px;
+	margin-right: 20%;
+	text-shadow: 2px 0px #EFE1BE;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+h2 {
+	text-align: center;
+	text-shadow: 0px 0px #4E2A82;
+	background-color: #ECECEC;
+}
+p {
+	margin-left: 20%;
+	margin-top: 1%;
+	margin-right: 20%;
+	background-color: #ECECEC;
+	background-size: contain;
+	background-clip: padding-box;
+	padding-top: 3%;
+	padding-right: 3%;
+	padding-bottom: 3%;
+	padding-left: 3%;
+	list-style-position: inside;
+}
+
+.footer {
+	text-align: center;
+	text-shadow: 1px 1px 0 #4E2A82;
+	color: #FFFFFF;
+	font-size: small;
+	bottom: 0vmax;
+	vertical-align: bottom;
+	clear: none;
+	background-color: #1E1E1E;
+	max-height: 1px;
+}
+.image {
+	float: none;
+	clear: none;
+	width: 6cm;
+	height: 6cm;
+	min-width: 15%;
+	min-height: 15%;
+}
+ul li a:hover {
+	color: #EFE1BE;
+	background-color: #4E2A82;
+}
+ul li a {
+	width: 100%;
+	text-decoration: none;
+	padding-left: 2%;
+	padding-right: 2%;
+	color: #4E2A82;
+}
+li {
+	display: inline;
+}
+p.li {
+	background-color: #ECECEC;
+	float: left;
+}
+p.ul {
+	background-color: #ECECEC;
+}
+.header_image {
+	background-image: url(SubBadge01.png);
+	background-repeat: no-repeat;
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+	float: left;
+	clear: left;
+	max-height: 72px;
+	max-width: 72px;
+	padding-left: 0px;
+}
+.menu_nav_ img {
+	float: left;
+	clear: left;
+	padding-left: 2px;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	min-height: 0px;
+	height: auto;
+	width: auto;
+}
+.body_paragraph {
+	background-color: #ECECEC;
+	text-align: left;
+	height: auto;
+	width: auto;
+	margin-right: 20%;
+	margin-left: 20%;
+	padding-top: 1%;
+	padding-right: 3%;
+	padding-left: 3%;
+	list-style-position: inside;
+	list-style-type: square;
+	padding-bottom: 4%;
+	white-space: normal;
+	line-height: 165%;
+}
+
+
+
+
+
+
+/*Mobile Phone*/
+@media (max-width:460px){
+.layout {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	padding-left: 2%;
+	padding-top: 1%;
+	padding-right: 2%;
+	padding-bottom: 1%;
+}
+	
+.header {
+	max-width: 248px;
+	max-height: 268px;
+	width: auto;
+	height: auto;
+	float: none;
+	clear: both;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+	.menu_nav {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: medium;
+	background-color: #F0CE74;
+	border: medium double #4E2A82;
+	color: #0F0F0F;
+	-webkit-box-shadow: inset 5% 25% 3px #4E2A82;
+	box-shadow: inset 5% 25% 3px #4E2A82;
+	text-align: center;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-decoration: none;
+	white-space: normal;
+	text-transform: uppercase;
+	clear: none;
+	line-height: 30px;
+	}
+ h1 {
+	text-align: center;
+	text-decoration: none;
+	color: #4E2A82;
+	background-color: #ECECEC;
+	border-width: medium;
+	border-style: double;
+	margin-left: 5%;
+	padding-right: 0px;
+	margin-right: 5%;
+	text-shadow: 2px 1px #EFE1BE;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}	
+p {
+	margin-left: 3%;
+	margin-top: 2%;
+	margin-right: 3%;
+	background-color: #ECECEC;
+	background-size: contain;
+	background-clip: padding-box;
+	padding-left: 4%;
+	padding-top: 4%;
+	padding-right: 4%;
+	padding-bottom: 4%;
+	}
+}
+.body_paragraph {
+	background-color: #ECECEC;
+	text-align: left;
+	height: auto;
+	width: auto;
+	margin-right: 5%;
+	margin-left: 5%;
+	padding-top: 1%;
+	padding-right: 2%;
+	padding-left: 2%;
+	list-style-position: inside;
+	list-style-type: square;
+	padding-bottom: 2%;
+	white-space: normal;
+	line-height: 100%;
+}
